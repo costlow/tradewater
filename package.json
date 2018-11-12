@@ -1,0 +1,31 @@
+{
+  "name": "tradewater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costlow/tradewater.git"
+  },
+  "author": "Brian Costlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costlow/tradewater/issues"
+  },
+  "homepage": "https://github.com/costlow/tradewater#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-modernizr": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "webpack": "^4.17.1"
+  }
+}

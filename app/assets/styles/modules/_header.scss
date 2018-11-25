@@ -11,9 +11,7 @@ header {
   left: -9999px;
   visibility: hidden;
 }
-.site-logo {
-  padding: 2em 0;
-}
+
 .site-header .contact {
   display: flex;
   justify-content: flex-end;
@@ -33,7 +31,7 @@ header {
 .site-header .contact a:hover {
   border-color: $mainBrown;
 }
-.site-header .contact .phone a:before {
+.site-header .contact a.phone:before {
   content: "tel";
   display: inline;
   padding-right: .5em;
@@ -65,7 +63,4 @@ header {
 .menu--primary a:hover {
   //background-color: #ccc;
   border-bottom: 3px solid $mainBrown;
-}
-
-.panel--intro {
 }

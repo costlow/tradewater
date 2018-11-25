@@ -1,0 +1,11 @@
+.panel {
+  padding: 3em 0;
+}
+
+.panel--services {
+  background-image: url('/assets/images/pipe-ends.jpg');
+  background-size: cover;
+  background-color: $mainBrown;
+  background-blend-mode: multiply;
+  box-shadow: 0 0 55px inset $mainBrown;
+}
